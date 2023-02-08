@@ -61,8 +61,8 @@
 			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
 				<pawnToSpawn>VFE_Mechanoids_CC</pawnToSpawn>
 				<allowedWorkTypes>
-				<li>Firefighter</li>
-				<li>BasicWorker</li>
+					<li>Firefighter</li>
+					<li>BasicWorker</li>
 				</allowedWorkTypes>
 				<extraChargingPower>1200</extraChargingPower>
 				<spawnWithWeapon>VFE_Gun_CCMechanoidGun</spawnWithWeapon>

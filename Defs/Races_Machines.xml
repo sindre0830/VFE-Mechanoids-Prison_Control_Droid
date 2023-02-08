@@ -83,8 +83,7 @@
 			<PsychicSensitivity>0</PsychicSensitivity>
 		</statBases>
 		<tools>
-		<!--
-			<li>
+			<!--<li>
 				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
@@ -93,7 +92,7 @@
 				<cooldownTime>0.75</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			</li>	-->	
+			</li>-->	
 			<li>
 				<label>left hand</label>
 				<capacities>
