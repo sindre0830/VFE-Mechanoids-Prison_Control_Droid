@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThinkTreeDef>
-		<defName>VFE_Mechanoids_ViolentMachineWork</defName>
+		<defName>VFEMPCD_Mechanoids_ViolentMachineWork</defName>
 		<thinkRoot Class="ThinkNode_Priority">
 			<subNodes>
 				<li Class="ThinkNode_Subtree">

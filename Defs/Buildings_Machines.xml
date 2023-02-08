@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="BuildingBase">
-		<defName>VFE_Mechanoids_CCBase</defName>
+		<defName>VFEMPCD_Mechanoids_CCBase</defName>
 		<thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
 		<label>crowd control mechanoid charging station</label>
 		<description>A station for assembling and recharging crowd control mechanoids.</description>
@@ -59,9 +59,9 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
-				<pawnToSpawn>VFE_Mechanoids_CC</pawnToSpawn>
+				<pawnToSpawn>VFEMPCD_Mechanoids_CC</pawnToSpawn>
 				<extraChargingPower>1200</extraChargingPower>
-				<spawnWithWeapon>VFE_Gun_CCMechanoidGun</spawnWithWeapon>
+				<spawnWithWeapon>VFEMPCD_MechanoidGun_CC</spawnWithWeapon>
 				<hoursToRecharge>24</hoursToRecharge>
 			</li>
 		</comps>
@@ -73,7 +73,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
-		<defName>VFE_Mechanoids_BoxerBase</defName>
+		<defName>VFEMPCD_Mechanoids_BoxerBase</defName>
 		<thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
 		<label>boxer mechanoid charging station</label>
 		<description>A station for assembling and recharging boxer mechanoids.</description>
@@ -131,8 +131,8 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
-				<pawnToSpawn>VFE_Mechanoids_Boxer</pawnToSpawn>
-				<spawnWithWeapon>InvisibleHand</spawnWithWeapon>
+				<pawnToSpawn>VFEMPCD_Mechanoids_Boxer</pawnToSpawn>
+				<spawnWithWeapon>VFEMPCD_InvisibleHand</spawnWithWeapon>
 				<extraChargingPower>1600</extraChargingPower>
 				<hoursToRecharge>24</hoursToRecharge>
 			</li>

@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ================================= Combat Mechanoid gun ==================================== -->
 	<ThingDef ParentName="BaseBullet">
-		<defName>VFE_Bullet_Beanbag_Round</defName>
+		<defName>VFEMPCD_Bullet_Beanbag_Round</defName>
 		<label>bean bag round</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -16,7 +16,7 @@
 		</projectile>
 	</ThingDef>
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>VFE_Gun_CCMechanoidGun</defName>
+		<defName>VFEMPCD_MechanoidGun_CC</defName>
 		<label>handheld beanbag launcher</label>
 		<description>A portable beanbag launcher. Very non-lethal and stagger enemy on hit. May blow off limb</description>
 		<graphicData>
@@ -43,7 +43,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>VFE_Bullet_Beanbag_Round</defaultProjectile>
+				<defaultProjectile>VFEMPCD_Bullet_Beanbag_Round</defaultProjectile>
 				<warmupTime>0.4</warmupTime>
 				<range>13.9</range>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
@@ -79,7 +79,7 @@
 		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
-		<defName>InvisibleHand</defName>
+		<defName>VFEMPCD_InvisibleHand</defName>
 		<label>hand</label>
 		<description>A fingerless hand. More like a stump. Belong to the boxer mechanoid</description>
 		<graphicData>

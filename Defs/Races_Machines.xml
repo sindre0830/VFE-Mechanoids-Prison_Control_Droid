@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="BaseVFEMachine">
-		<defName>VFE_Mechanoids_CC</defName>
+		<defName>VFEMPCD_Race_Mechanoids_CC</defName>
 		<label>crowd control mechanoid</label>
 		<description>A simple minded ranged crowd control drone. Patrols designated areas analyzing for nearby threats and will autonomously engage them. They exchange their toughness for extra mobility compared to the more lethal mechanoid.</description>
 		<statBases>
@@ -24,7 +24,7 @@
 		</tools>
 		<race>
 			<intelligence>ToolUser</intelligence>
-			<thinkTreeMain>VFE_Mechanoids_ViolentMachineWork</thinkTreeMain>
+			<thinkTreeMain>VFEMPCD_Mechanoids_ViolentMachineWork</thinkTreeMain>
 			<body>Lancer</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
@@ -54,10 +54,11 @@
 			</li>
 		</comps>
 	</ThingDef>
+
 	<PawnKindDef ParentName="BaseMechanoidKind">
-		<defName>VFE_Mechanoids_CC</defName>
+		<defName>VFEMPCD_Mechanoids_CC</defName>
 		<label>crowd control mechanoid</label>
-		<race>VFE_Mechanoids_CC</race>
+		<race>VFEMPCD_Race_Mechanoids_CC</race>
 		<combatPower>99999</combatPower>
 		<lifeStages>
 			<li>
@@ -72,8 +73,9 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+
 	<ThingDef ParentName="BaseVFEMachine">
-		<defName>VFE_Mechanoids_Boxer</defName>
+		<defName>VFEMPCD_Race_Mechanoids_Boxer</defName>
 		<label>boxer mechanoid</label>
 		<description>A simple minded melee boxer drone. Patrols designated areas analyzing for nearby threats and will autonomously engage them. They exchange their toughness for extra mobility compared to the more lethal mechanoid.</description>
 		<statBases>
@@ -82,17 +84,7 @@
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 			<PsychicSensitivity>0</PsychicSensitivity>
 		</statBases>
-		<tools>
-			<!--<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>0.75</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			</li>-->	
+		<tools>	
 			<li>
 				<label>left hand</label>
 				<capacities>
@@ -118,7 +110,7 @@
 		</tools>
 		<race>
 			<intelligence>ToolUser</intelligence>
-			<thinkTreeMain>VFE_Mechanoids_ViolentMachineWork</thinkTreeMain>
+			<thinkTreeMain>VFEMPCD_Mechanoids_ViolentMachineWork</thinkTreeMain>
 			<body>Lancer</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
@@ -148,10 +140,11 @@
 			</li>
 		</comps>
 	</ThingDef>
+
 	<PawnKindDef ParentName="BaseMechanoidKind">
-		<defName>VFE_Mechanoids_Boxer</defName>
+		<defName>VFEMPCD_Mechanoids_Boxer</defName>
 		<label>Boxer mechanoid</label>
-		<race>VFE_Mechanoids_Boxer</race>
+		<race>VFEMPCD_Race_Mechanoids_Boxer</race>
 		<combatPower>99999</combatPower>
 		<lifeStages>
 			<li>
