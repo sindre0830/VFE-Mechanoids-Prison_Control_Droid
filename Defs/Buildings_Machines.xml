@@ -60,10 +60,6 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
 				<pawnToSpawn>VFE_Mechanoids_CC</pawnToSpawn>
-				<allowedWorkTypes>
-					<li>Firefighter</li>
-					<li>BasicWorker</li>
-				</allowedWorkTypes>
 				<extraChargingPower>1200</extraChargingPower>
 				<spawnWithWeapon>VFE_Gun_CCMechanoidGun</spawnWithWeapon>
 				<hoursToRecharge>24</hoursToRecharge>
@@ -136,10 +132,6 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
 				<pawnToSpawn>VFE_Mechanoids_Boxer</pawnToSpawn>
-				<allowedWorkTypes>
-				<li>Firefighter</li>
-				<li>BasicWorker</li>
-				</allowedWorkTypes>
 				<spawnWithWeapon>InvisibleHand</spawnWithWeapon>
 				<extraChargingPower>1600</extraChargingPower>
 				<hoursToRecharge>24</hoursToRecharge>
